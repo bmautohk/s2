@@ -1,0 +1,34 @@
+Customer<br>
+<li><a href="customers/list_all">List</a></li>
+<li><a href="customers/create">Create</a></li>
+
+Supplier<br>
+<li><a href="suppliers/list_all">List</a></li>
+<li><a href="suppliers/create">Create</a></li>
+
+Sell Order<br>
+<li><a href="so/list_all">List</a></li>
+<li><a href="so/create">Create</a></li>
+
+Purchase Order<br>
+<li><a href="po/list_all">List</a></li>
+
+Invoice<br>
+<li><a href="invoices/list_all">List</a></li>
+<li><a href="invoices/create">Create</a></li>
+
+Product<br>
+<li><a href="products/list_all">List</a></li>
+
+Settle Invoices<br>
+<li><a href="arByCust/list_all">List</a></li>
+<li><a href="arByCust/create">Create</a></li>
+
+View Unsettle Invoice<br>
+<li><a href="report/list_all">List</a></li>
+
+<!--
+Payment to Supplier<br>
+<li><a href="apToSupp/list_all">List</a></li>
+<li><a href="apToSupp/create">Create</a></li>
+-->

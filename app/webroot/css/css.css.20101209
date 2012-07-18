@@ -1,0 +1,199 @@
+body { 
+	margin: 30px 0 0 0;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	background: #8f9595;
+}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+.column { 
+	margin: 0 10px;
+	float: left;
+}
+.row { 
+	width: 1240px;
+	margin: 0 auto;
+}
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+}
+.invoice_header {
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	-webkit-transition-duration: 0.2s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	
+}
+.invoice_header:hover {
+		-webkit-box-shadow: 0px 0px 20px rgba(52,56,59,0.9);
+		-moz-box-shadow: 0px 0px 20px rgba(52,56,59,0.9);
+		box-shadow: 0px 0px 20px rgba(52,56,59,0.9);
+}
+
+.lightpanel {
+		color: #4d4d4d;
+		line-height: 18px;
+		text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+		background: #dadddd;
+		border-top: 1px solid #f3f3f3;
+		border-bottom: 1px solid #c5c8c8;
+		}
+		
+.lightpanel p {
+		padding-left: 10px;
+		padding-right: 10px;
+		}
+		
+.lightpanel h2, .lightpanel h3, .lightpanel h4, .lightpanel h5, .lightpanel h6 {
+		padding-left: 10px;
+		padding-right: 10px;
+}
+	.roundedtop {
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		}
+		.linkbg {
+		background: #b9bdbd;
+		
+		text-shadow: 0 0px 1px rgba(255,255,255,0.3);
+		padding: 0px;
+		margin: 0px;
+		}
+		
+		.linkbg h2 {
+		padding: 0px;
+		margin: 0px;
+		}		
+		.linkdescription {
+		background:  #dadddd;
+		border-top: 1px solid #f3f3f3;
+		padding-bottom: 1px;
+		padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 10px;
+			padding-right: 10px;
+			display: block;
+		}
+		
+		  input,select	 {
+			background:  #ffffff;
+			-moz-border-radius-bottomleft: 5px;
+			-moz-border-radius-bottomright: 5px;
+			-moz-border-radius-topleft: 5px;
+			-moz-border-radius-topright: 5px;
+			-webkit-border-bottom-left-radius: 5px;
+			-webkit-border-bottom-right-radius: 5px;
+			-webkit-border-top-left-radius: 5px;
+			-webkit-border-top-right-radius: 5px;
+			background-color: #eaeaea;
+			background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #eaeaea));
+			border: 1px solid #cacaca;
+			color: #444;
+			font-size: 0.8em;
+			margin: 0 0 5px;
+			padding: 2px 5px;
+			
+		}
+		
+a {
+	color: #41797e;
+	text-decoration: none;
+}
+ 
+h1 {
+	font-size: 32px;
+	letter-spacing: -1px;
+	font-weight: 100;
+	text-shadow: 0 2px 1px rgba(255,255,255,0.9);
+	margin: 0px;
+	line-height: 30px;
+	font-weight: bold;
+}
+		
+		h1 a {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 20px;
+		display: block;
+		color: #4d4d4d;
+		}
+		
+		h1 a:hover {
+		background: #e9eaea;
+		}	
+		h2 {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 24px;
+		text-shadow: 0 2px 1px rgba(255,255,255,0.9);
+		}
+		
+		h2 a {
+		color: #4d4d4d;
+		}
+		
+		h3 {
+			font-size: 15px;
+			font-weight: 500;
+			line-height: 15px;
+			text-shadow: 0 2px 2px rgba(255,255,255,0.9);
+		}
+		.link {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			padding-right: 130px;
+			display: block;
+		}
+		
+.cell0 {
+	display: table-cell;
+	border: 1px solid black;
+	padding: 1em;
+width: 20;
+}
+.cell {
+	display: table-cell;
+	border: 1px solid black;
+	padding: 1em;
+	width: 300;
+}
+		.roundedbottom {
+		-webkit-border-bottom-right-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-moz-border-radius-bottomright: 5px;
+		-moz-border-radius-bottomleft: 5px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		}
+		
+		.bottompanel {
+		background: #7b7f7f;
+		color: #dadddd;
+		text-transform: uppercase;
+		font-size: 9px;
+		font-weight: bold;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-bottom: 1px solid #656868;
+		font-family: Helvetica;
+		}
+		
+		.bottompanel a {
+			color: #dadddd;
+		}
+			.bottomlist {
+		padding-left: 0px;
+		}
